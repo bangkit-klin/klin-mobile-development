@@ -1,1 +1,5 @@
-# klin-mobile-development
+# Klin - Mobile Development
+
+---
+
+<img src="./assets/md_app.png">
