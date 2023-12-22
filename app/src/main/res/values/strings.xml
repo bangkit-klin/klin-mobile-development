@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">KLIN</string>
+    <string name="title_activity_orderlist1">orderlist_1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_add_address">addAddress</string>
+    <string name="email_account">yodyamahesa@gmail.com</string>
+    <string name="nama_account">Yodya Mahesa</string>
+    <string name="nama_home">Yodya Mahesa</string>
+    <string name="register_mitra">Enter Market Name</string>
+    <string name="register_email_mitra">Enter Market Email</string>
+    <string name="register_mitra_password">Enter Password</string>
+    <string name="jumlahtshirt">0</string>
+    <string name="jeans">0</string>
+    <string name="shirt">0</string>
+    <string name="skirt">0</string>
+    <string name="suit">0</string>
+    <string name="polo">0</string>
+    <string name="jmlh_subtotal">0\n</string>
+    <string name="jmlh_tax">0</string>
+    <string name="jmlh_total">0</string>
+    <string name="capture_button_description">kamera</string>
+
+    <string-array name="spash_title">
+        <item>All in One</item>
+        <item>Kualitas Terbaik</item>
+        <item>Tepat Waktu, Siap Pakai</item>
+    </string-array>
+
+    <string-array name="splash_deskripsi">
+        <item>Nikmati pengalaman laundry lengkap dengan KLIN. Kami menyediakan layanan cuci, bilas, dan setrika untuk memastikan baju Anda tetap bersih, harum, dan rapi</item>
+        <item>Dengan teknologi canggih dan perhatian terhadap detail, KLIN menjamin setiap pakaian Anda bersih maksimal dan tetap terawat. Percayakan pada KLIN untuk kualitas terbaik yang membuat pakaian Anda terlihat dan terasa istimewa.</item>
+        <item>Di KLIN, kami mengerti betapa berharganya waktu Anda. Dengan layanan cuci, bilas, dan setrika yang efisien, kami menjamin pakaian Anda akan siap pakai tepat waktu.</item>
+    </string-array>
+
+    <array name="iv_spalsh">
+        <item>@drawable/splash1</item>
+        <item>@drawable/splash2</item>
+        <item>@drawable/splash3</item>
+    </array>
+    <string name="title_activity_search_laundry">SearchLaundryActivity</string>
+
+</resources>
