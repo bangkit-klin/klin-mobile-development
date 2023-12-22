@@ -70,6 +70,13 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.8" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
+
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
@@ -103,9 +110,8 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline85"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toStartOf="@+id/guideline92"
         app:layout_constraintTop_toTopOf="@+id/guideline76"
         app:layout_constraintVertical_bias="0.473" />
 
@@ -133,9 +139,8 @@
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline40"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95"
+        app:layout_constraintStart_toStartOf="@+id/guideline92"
         app:layout_constraintTop_toTopOf="@+id/guideline39" />
 
     <TextView
@@ -148,8 +153,8 @@
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline70"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95"
+        app:layout_constraintStart_toStartOf="@+id/guideline92"
         app:layout_constraintTop_toTopOf="@+id/guideline40" />
 
     <TextView
@@ -162,8 +167,8 @@
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline76"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95"
+        app:layout_constraintStart_toStartOf="@+id/guideline92"
         app:layout_constraintTop_toTopOf="@+id/guideline70" />
 
     <TextView
@@ -194,6 +199,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -307,14 +319,14 @@
         android:id="@+id/textView9"
         android:layout_width="371dp"
         android:layout_height="31dp"
+        android:background="@drawable/rounded_corner_textview"
         android:gravity="center|left"
         android:text="Daftar Jadi Mitra"
         android:textColor="#000000"
         android:textSize="16sp"
-        android:background="@drawable/rounded_corner_textview"
         app:layout_constraintBottom_toTopOf="@+id/guideline21"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95"
+        app:layout_constraintStart_toStartOf="@+id/guideline92"
         app:layout_constraintTop_toTopOf="@+id/guideline85"
         app:layout_constraintVertical_bias="0.466" />
 
@@ -328,8 +340,8 @@
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/textView50"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95"
+        app:layout_constraintStart_toStartOf="@+id/guideline92"
         app:layout_constraintTop_toTopOf="@+id/guideline21" />
 
     <TextView
@@ -342,8 +354,8 @@
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline87"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95"
+        app:layout_constraintStart_toStartOf="@+id/guideline92"
         app:layout_constraintTop_toTopOf="@+id/guideline86" />
 
     <TextView
@@ -356,9 +368,9 @@
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline28"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline95"
         app:layout_constraintHorizontal_bias="0.525"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline92"
         app:layout_constraintTop_toTopOf="@+id/guideline87" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
